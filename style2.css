@@ -1,0 +1,129 @@
+body {
+    background: black; /* Full black background */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.work {
+    font-size: 1.2rem;
+    color: #4e5d6c;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.about-me {
+    max-width: 600px;
+    margin: 40px auto;
+    background: grey;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+    padding: 32px 28px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.about-me:hover {
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.16);
+}
+
+.about-me h2 {
+    color: white;
+    margin-bottom: 16px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.about-me p {
+    color: cornsilk;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.education-section {
+    background: #90EE90;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.skills-section {
+    background: #FFB6C1;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.projects-section {
+    background: #5F9EA0;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.contact-section {
+    background: #DEB887;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.education-item, .skill-item, .project-item, .contact-item {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact-item a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.home-button {
+    margin: 20px;
+    padding: 10px 20px;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-button:hover {
+    background: #444;
+}

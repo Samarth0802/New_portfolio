@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'MyFontNothing';
+    src: url(/fonts/Ndot-55.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.robot{
+    position: absolute;
+    margin-left: 800px;
+}
+
+
+.Portfolio{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 50px;
+    color: white;
+    font-family: 'MyFontNothing', sans-serif;
+}
+
+button{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 300px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: grey;
+    font-size: 20px;
+    font-family: 'MyFontNothing', sans-serif;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button:hover a{
+    color: black;
+    transition: 0.5s;
+}
